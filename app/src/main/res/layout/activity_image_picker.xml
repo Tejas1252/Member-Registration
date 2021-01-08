@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagePicker">
+    <Button
+        android:id="@+id/pick2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="pick"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:background="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"/>
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:tag="notdone"
+        android:src="@drawable/ic_account_box_black_24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.member_registration.MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/gd">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/cyan"
+        android:text="Member Registration" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/cold"
+        android:text="Name"/>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_marginLeft="100dp"
+        android:hint="Full name"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/cold"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/cold"
+        android:text="E-mail"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="@color/cold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="140dp"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="@color/cold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:text="Address"/>
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:textColor="@color/cold"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/cold"
+        android:text="Contact"/>
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="@color/cold"
+        android:maxLength="10"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/cold"
+        android:text="D.O.B"/>
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="@color/cold"
+        android:hint="Double tap"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="100dp"
+        android:inputType="date" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/cold"
+        android:text="D.O.A"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="@color/cold"
+        android:hint="Double tap"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="100dp"
+        android:inputType="date" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/cold"
+        android:layout_marginTop="420dp"
+        android:text="State"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:theme="@style/Spinner"
+        android:entries="@array/spinnerItems"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="460dp"
+        android:textColor="@color/cold"
+        android:text="City"/>
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="@color/cold"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="100dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#000"
+        android:background="@drawable/bgd"
+        android:textColor="@color/white"
+        android:text="Save" />
+
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_search"
+        app:backgroundTint="@color/black"
+        app:borderWidth="10dp"/>
+
+    </RelativeLayout>
